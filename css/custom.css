@@ -417,5 +417,13 @@ footer .contact-no-footer span{
 
 }
 @media (max-width: 320px) {
-
+    .option-item h2 {
+        font-size: 18px;
+    }
+    .option-item .img {
+        min-height: 200px;
+    }
+    .option-item h4 {
+        font-size: 14px;
+    }
 }
