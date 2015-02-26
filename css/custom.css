@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+}
+a{
+    color: #000000;
+}
+.btn{
+    -webkit-transition: all 0.30s ease-out 0s;
+    -moz-transition: all 0.30s ease-out 0s;
+    -ms-transition: all 0.30s ease-out 0s;
+    -o-transition: all 0.30s ease-out 0s;
+    transition: all 0.30s ease-out 0s;
+}
+.btn-default{
+    border-color: #f26e20;
+    color: #f26e20;
+    padding: 4px 20px;
+}
+.btn-default:hover{
+    color: #ffffff;
+    background: #f26e20;
+}
+.btn:hover, .btn:focus{
+    outline: none;
+}
+.clear{
+    clear: both;
+}
+input[type="text"], select, textarea{
+    border: 1px solid #cccccc;
+    color: #949494;
+    padding: 5px 10px;
+    width: 100%;
+}
+textarea{
+    min-height: 100px;
+}
+h2, h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.top-bar{
+    float: right;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.top-bar ul li{
+    display: inline-block;
+    border-right: 1px solid #e1e1e1;
+    padding: 5px 15px;
+    color: #666666;
+    font-size: 12px;
+}
+.top-bar ul li:last-child{
+    border: 0px;
+    padding-right: 0px;
+}
+.top-bar ul li.contact-no{
+    border-right: 0px;
+    position: absolute;
+    top: -2px;
+    left: -178px;
+}
+.top-bar ul li.contact-no p{
+    display: block;
+    background: url("../imgs/contact-icon.png") no-repeat left;
+    color: #4c9c44;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1px 0px 1px 35px;
+    margin-bottom: 0px;
+}
+.top-bar ul li.contact-no span{
+    padding-left: 50px;
+}
+.navbar-nav{
+    clear: right;
+    float: right;
+    margin-top: 0px;
+}
+.navbar-brand{
+    padding-top: 15px;
+}
+.nav>li>a{
+    font-size: 14px;
+    margin-left: 35px;
+    padding: 0px 0 10px 0px;
+}
+.nav>li>a:hover{
+    color: #f26e20;
+    background: none;
+}
+.nav>li>a.active{
+    color: #f26e20;
+    background: none;
+    font-weight: 700;
+    border-bottom: 2px solid #f26e20;
+}
+.nav>li>a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.navbar-collapse{
+    box-shadow:none;
+    padding-right: 0px;
+}
+.navbar-toggle{
+    margin-top: 13px;
+}
+.navbar-toggle .icon-bar{
+    background: #000000;
+    width: 35px;
+    height: 3px;
+}
+.option-heading{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 60px 0px 30px 0px;
+}
+.option-wrapper{
+    background: #f3f3f3;
+}
+footer{
+    clear: both;
+    border-top: 1px solid #656565;
+    padding-top: 20px;
+    line-height: 25px;
+}
+footer .footer-item-wrap{
+    padding-right: 40px;
+}
+footer .footer-item-wrap.last{
+    padding-right: 10px;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+footer a:hover{
+    color: #ffcb05;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+        padding: 0px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-nav {
+        float: none;
+        padding-top: 30px;
+        clear: both;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    .navbar {
+        min-height: 65px;
+    }
+    .navbar-nav {
+        float: none;
+        padding-top: 0px;
+        border-top: 1px solid #3c3c3c;
+        clear: both;
+    }
+    .navbar-brand {
+        padding-top: 7px;
+    }
+    .navbar-brand img{
+        width: 90px;
+        height: auto;
+    }
+    .nav>li>a {
+        padding: 10px;
+        height: auto;
+    }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .navbar{
+        min-height: 65px;
+    }
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 320px) {
+
+}
