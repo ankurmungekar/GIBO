@@ -7,7 +7,7 @@ body{
     font-size: 14px;
 }
 a{
-    color: #000000;
+    color: #2980b9;
 }
 .btn{
     -webkit-transition: all 0.30s ease-out 0s;
@@ -24,6 +24,14 @@ a{
 .btn-default:hover{
     color: #ffffff;
     background: #f26e20;
+}
+.btn-primary{
+    background: #f26e20;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 30px;
 }
 .btn:hover, .btn:focus{
     outline: none;
@@ -92,9 +100,9 @@ h2, h1{
     padding-top: 15px;
 }
 .nav>li>a{
-    font-size: 14px;
     margin-left: 35px;
     padding: 0px 0 10px 0px;
+    color: #000000;
 }
 .nav>li>a:hover{
     color: #f26e20;
@@ -129,6 +137,102 @@ h2, h1{
 }
 .option-wrapper{
     background: #f3f3f3;
+    padding: 40px 0px;
+}
+.option-item{
+    max-width: 387px;
+    margin: auto;
+}
+.option-item h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.option-item.item-1 h2{
+    background: url("../imgs/google-business-logo.png") no-repeat left;
+    padding: 5px 0px 5px 50px;
+}
+.option-item.item-2 h2{
+    background: url("../imgs/DIY-icon.png") no-repeat left;
+    padding: 5px 0px 5px 60px;
+}
+.option-item .img{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 275px;
+    margin-bottom: 10px;
+}
+.option-item .img .offer{
+    width: 93px;
+    height: 93px;
+    background: url("../imgs/offer-bg.png") no-repeat;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    padding-top: 34px;
+}
+.option-item.item-1 .img .offer{
+    right: 0px;
+    top: -25px;
+}
+.option-item.item-2 .img .offer{
+    left: -30px;
+    top: -25px;
+}
+.option-item h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.option-item ul{
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.option-item ul li{
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    background: url("../imgs/tick.png") no-repeat left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.option-item.item-1 ul li.col-1{
+    width: 140px;
+}
+.option-item.item-2 ul li.col-1{
+    width: 210px;
+}
+.option-item .btn-wrap{
+    margin-bottom: 10px;
+}
+.or{
+    width: 1px;
+    margin: auto;
+    background: #000000;
+    height: 575px;
+    position: relative;
+}
+.or span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    background: #000000;
+    border-radius: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin: -18px 0 0 -18px;
+    padding-top: 8px;
 }
 footer{
     clear: both;
