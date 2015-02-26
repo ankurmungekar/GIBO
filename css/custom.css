@@ -9,6 +9,23 @@ body{
 a{
     color: #2980b9;
 }
+
+input.error {
+    border-color: red !important;
+}
+input.valid {
+    color: #4c9c44;
+}
+label.error {
+    color: red;
+    font-size: 12px;
+}
+.bg-green {
+    background: #4c9c44;
+}
+.bg-grey {
+    background: #ebebeb;
+}
 .btn{
     -webkit-transition: all 0.30s ease-out 0s;
     -moz-transition: all 0.30s ease-out 0s;
@@ -39,11 +56,12 @@ a{
 .clear{
     clear: both;
 }
-input[type="text"], select, textarea{
+input[type="text"], input[type="url"], input[type="email"], input[type="file"] , select, textarea{
     border: 1px solid #cccccc;
     color: #949494;
     padding: 5px 10px;
     width: 100%;
+    border-radius: 5px;
 }
 textarea{
     min-height: 100px;
@@ -53,8 +71,8 @@ h2, h1{
     font-weight: 600;
 }
 .navbar{
-    border-radius: 0px;
-    margin-bottom: 0px;
+    border-radius: 0;
+    margin-bottom: 0;
 }
 .top-bar{
     float: right;

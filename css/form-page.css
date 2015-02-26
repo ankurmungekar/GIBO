@@ -1,0 +1,69 @@
+.row-wrapper {
+    margin: 20px 0;
+}
+.form-title-bar {
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 25px 0 10px 0;
+}
+.form-title-bar p {
+    margin: 0;
+}
+.form-title-bar.bg-green {
+    color: white;
+    font-weight: bold;
+}
+
+.form-content .container .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-content p.small {
+    color: #999999;
+    margin: 0;
+}
+
+/*.form-content {*/
+    /*-webkit-transition: all 10s ease-in-out 0s;*/
+    /*-moz-transition: all 10s ease-in-out 0s;*/
+    /*-ms-transition: all 10s ease-in-out 0s;*/
+    /*-o-transition: all 10s ease-in-out 0s;*/
+    /*transition: all 10s ease-in-out 0s;*/
+    /*overflow: hidden;*/
+    /*max-height: 700px;*/
+/*}*/
+.form-content {
+    max-height: 700px;
+}
+.form-title-bar, .form-content {
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    overflow: hidden;
+}
+
+
+.section-wrap.collapse-in .form-title-bar {
+    background: #ebebeb;
+    color: #999999;
+}
+.section-wrap.collapse-in .form-content {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.section-wrap.collapse-in.complete .form-title-bar p {
+    position: relative;
+    color: #4c9c44;
+}
+.section-wrap.collapse-in.complete .form-title-bar p:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 10px;
+}
