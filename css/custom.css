@@ -284,6 +284,7 @@ footer ul{
         padding-top: 0px;
         border-top: 1px solid #3c3c3c;
         clear: both;
+        margin: 0px;
     }
     .navbar-brand {
         padding-top: 7px;
@@ -295,13 +296,31 @@ footer ul{
     .nav>li>a {
         padding: 10px;
         height: auto;
+        margin-left: 0px;
+    }
+    .top-bar {
+        float: none;
+    }
+    .top-bar ul{
+        padding-left: 0px;
+    }
+    .top-bar ul li.contact-no {
+        border-right: 0px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .top-bar ul li {
+        display: block;
+        border-right: 0;
+        border-bottom: 1px solid #e1e1e1;
+        text-align: center;
+        padding: 10px 0px;
     }
 }
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-    .navbar{
-        min-height: 65px;
-    }
+
 }
 @media (max-width: 360px) {
 
