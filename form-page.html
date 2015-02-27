@@ -146,6 +146,7 @@
                     </div>
                     <div class="col-md-5">
                         <select name="businessCategory" id="businessCategory" required >
+                            <option value="default">Select a category</option>
                             <option value="ecommerce">E-commerce</option>
                         </select>
                     </div>
@@ -176,7 +177,7 @@
                 </div>
                 <div class="row btn-wrap">
                     <div class="col-md-12">
-                        <button class="btn btn-primary">PROCEED TO LAST STEP</button>
+                        <a id="businessInfoBtn" class="btn btn-primary">PROCEED TO LAST STEP</a>
                     </div>
                 </div>
             </form>
@@ -185,7 +186,7 @@
 </div>
 
 
-<div class="section-wrap collapse-in complete">
+<div class="section-wrap collapse-in">
     <div class="row-wrapper form-title-bar bg-green">
         <div class="container">
             <p>3. Your Business Address</p>
@@ -209,6 +210,7 @@
                     <div class="col-md-5">
                         <select name="state" id="state" required >
                             <option value="default">Select State</option>
+                            <option value="default">Maharashtra</option>
                         </select>
                     </div>
                 </div>
@@ -222,7 +224,7 @@
                 </div>
                 <div class="row btn-wrap">
                     <div class="col-md-12">
-                        <button class="btn btn-primary">THANKS, YOU'RE DONE</button>
+                        <a id="businessAddBtn" class="btn btn-primary">THANKS, YOU'RE DONE</a>
                     </div>
                 </div>
             </form>

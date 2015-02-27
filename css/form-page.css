@@ -56,11 +56,11 @@
     margin: 0;
 }
 
-.section-wrap.collapse-in.complete .form-title-bar p {
+.section-wrap.collapse-in.completed .form-title-bar p {
     position: relative;
     color: #4c9c44;
 }
-.section-wrap.collapse-in.complete .form-title-bar p:before {
+.section-wrap.collapse-in.completed .form-title-bar p:before {
     font-family: 'Glyphicons Halflings';
     content: "\e013";
     font-weight: 400;

@@ -10,11 +10,12 @@ a{
     color: #2980b9;
 }
 
-input.error {
+input.error, select.error {
     border-color: red !important;
 }
-input.valid {
-    color: #4c9c44;
+input.valid, select.valid {
+    color: #4c9c44 !important;
+    border-color: #4c9c44 !important;
 }
 label.error {
     color: red;
